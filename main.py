@@ -6,13 +6,13 @@ import os
 import requests
 import time
 
-FOLDER = "C:\\Users\Dell\Downloads\st"
+FOLDER = ""
 os.makedirs(FOLDER, exist_ok=True)
 
 options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 
-service = Service("C:\\Users\Dell\Development\chromedriver.exe")
+service = Service("")
 driver = webdriver.Chrome(options=options, service=service)
 driver.maximize_window()
 
