@@ -16,7 +16,7 @@ service = Service("")
 driver = webdriver.Chrome(options=options, service=service)
 driver.maximize_window()
 
-driver.get("https://urasunday.com/title/2169/200736")
+driver.get("")
 driver.refresh()
 time.sleep(10)
 
